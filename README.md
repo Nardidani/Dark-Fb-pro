@@ -1,11 +1,12 @@
-$ pkg install git python2
+git remote add origin https://github.com/Nardidani/Metasploit.git
 
-$ pip2 install --upgrade pip
+cd termux-metasploit
 
-$ git clone (link)
 
-$ cd dark-fb-pro
+chmod 777 install.sh
 
-$ pip2 install -r requirements.txt
 
-$ python2 Dark-PRO.py
+sh install.sh
+
+
+msfconsole
